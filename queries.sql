@@ -139,7 +139,7 @@ SELECT
     SUM ("Order_items"."quantity" * "Order_items"."price") AS "Yearly_totalsales" 
 FROM "Order"
 JOIN "Order_items" ON "Order"."id" = "Order_items"."order_id"
-WHERE "Order"."date" BETWEEN '2023-01-01' AND '2023-12-01' 
+WHERE "Order"."date" BETWEEN '2023-01-01' AND '2023-12-31' 
 ;
 
 
