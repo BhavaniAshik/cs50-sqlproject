@@ -127,4 +127,5 @@ The `Product_category_view` is created to display each product along with its co
 
 ## Limitations
 
+
 The current schema assumes one rating per purchased product and it does not currently track shipping or payment details.
